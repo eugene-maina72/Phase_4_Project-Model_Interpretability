@@ -21,3 +21,26 @@ This is a repository that aims to build a model to predict the cause of road acc
 ## THE DATA
 
 * The dataset can be found on [Chicago Data Portal](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/about_data)
+
+`
+The contents of the repo are:
+            -data
+            -images
+            -gitignore
+            -notebook
+            -Non-technical presentation
+            -README.md
+
+The dependencies are:
+            -Numpy
+            -Pandas
+            -sklearn
+            -imblearn
+            -matplotlib
+            -seaborn
+            -statsmodels
+            -catboost
+            -xgboost
+            -eli5
+`
+You can reach 
