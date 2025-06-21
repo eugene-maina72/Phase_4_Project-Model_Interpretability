@@ -22,6 +22,23 @@ This is a repository that aims to build a model to predict the cause of road acc
 
 * The dataset can be found on [Chicago Data Portal](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/about_data)
 
+## METHODS
+
+1. **Logistic Regression:**  
+  Simple and interpretable, but limited in capturing complex relationships in the data.
+
+2. **Decision Tree:**  
+  Offers interpretability and some improvement, but can overfit and is less stable.
+
+3. **Random Forest:**  
+  Better generalization, handles feature interactions, and provides useful feature importances.
+
+4. **XGBoost:**  
+  Best overall performance, robust to class imbalance, and effective for large, complex datasets.
+
+5. **KNN:**  
+  Underperforms due to high dimensionality and class imbalance; not recommended for this problem.
+
 ```
 The contents of the repo are:
             -data
@@ -43,4 +60,5 @@ The dependencies are:
             -xgboost
             -eli5
 ```
+
 You can reach the authors at:
