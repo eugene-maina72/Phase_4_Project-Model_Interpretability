@@ -39,6 +39,15 @@ This is a repository that aims to build a model to predict the cause of road acc
 5. **KNN:**  
   Underperforms due to high dimensionality and class imbalance; not recommended for this problem.
 
+| Model                | Accuracy | Precision | Recall | F1 Score | Comments |
+|----------------------|----------|-----------|--------|----------|----------|
+| Logistic Regression  | ~0.438    | ~0.360     | ~0.417  | ~0.366    | Baseline model, struggles with multi-class complexity and imbalanced classes. |
+| Decision Tree        | ~0.410    | ~0.348     | ~0.410  | ~0.342    | Slight improvement, interpretable but prone to overfitting. |
+| Random Forest        | ~0.393    | ~0.334     | ~0.392  | ~0.349    | Handles non-linearity and feature interactions better, more robust. |
+| XGBoost (default)    | ~0.417   | ~0.353    | ~0.417  | ~0.366   | Strong performance, handles class imbalance and complex patterns. |
+| XGBoost (GridSearch) | ~0.433    | ~0.365     | ~0.433  | ~0.373    | Hyperparameter tuning yields marginal gains, best overall performer. |
+| KNN                  | ~0.395    | ~0.322     | ~0.395  | ~0.337    | Sensitive to feature scaling and high dimensionality, not ideal for this dataset. |
+
 ```
 The contents of the repo are:
             -data
@@ -52,13 +61,13 @@ The dependencies are:
             -Numpy
             -Pandas
             -sklearn
-            -imblearn
             -matplotlib
             -seaborn
             -statsmodels
-            -catboost
             -xgboost
             -eli5
 ```
 
-You can reach the authors at:
+You can reach the authors on GitHub: [eugene-maina72](https://github.com/eugene-maina72)
+                                      [BAOKELO](https://github.com/BAOKELO)
+                                      [Betty254809](https://github.com/betty254809)
